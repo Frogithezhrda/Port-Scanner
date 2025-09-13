@@ -1,0 +1,73 @@
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-row input {
+  padding: 8px;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-row button {
+  padding: 8px 16px;
+}
+
+
+.input-row button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.port-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.port-badge {
+  background-color: #17a2b8;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
